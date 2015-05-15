@@ -5,7 +5,7 @@
     <groupId>jersey-proj</groupId>
     <artifactId>test-jersey-proj</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>test-jersey-proj</name>
 
     <dependencyManagement>
@@ -41,7 +41,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/vaishnavib/test-repo/ </developerConnection>
-	  <tag>test-jersey-proj-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
     <build>
         <plugins>
