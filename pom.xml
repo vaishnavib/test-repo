@@ -1,12 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jersey-proj</groupId>
     <artifactId>test-jersey-proj</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>test-jersey-proj</name>
 
     <dependencyManagement>
@@ -42,7 +41,8 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/vaishnavib/test-repo/ </developerConnection>
-	</scm>
+	  <tag>test-jersey-proj-0.0.1</tag>
+  </scm>
     <build>
         <plugins>
         	<plugin>
